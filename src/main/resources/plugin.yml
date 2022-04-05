@@ -1,0 +1,6 @@
+name: AngelTextAPI
+version: '${project.version}'
+main: necode.angelitex.tiplur.angeltextapi.AngelTextAPI
+api-version: 1.16
+authors: [ TIplur ]
+description: Processing text fields in different places. Scoreboard ? Title? ActionBar? Chat? Chat JSON? All this will be processed by this api!
