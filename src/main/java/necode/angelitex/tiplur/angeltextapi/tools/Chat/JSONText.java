@@ -39,18 +39,6 @@ public class JSONText {
         return textComponent;
     }
 
-    /**
-     * @param string the string of the JSON text.
-     * @param hoverMessage the hover message of the JSON text.
-     */
-    public static TextComponent createInteractiveMessage(String string, String hoverMessage) {
-        TextComponent textComponent = new TextComponent(ColorUtil.setColor(string));
-        if (!hoverMessage.equals("")) {
-            textComponent.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, (new ComponentBuilder(ColorUtil.setColor(hoverMessage))).create()));
-        }
-        return textComponent;
-    }
-
     public static enum MessageType {
         SUGGEST,
         COMMAND,
